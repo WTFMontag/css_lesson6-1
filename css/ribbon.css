@@ -3,11 +3,13 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
+  font-weight: 600;
   padding: 5px;
   font-family: Arial, sans-serif;
 }
 .ribbon p { 
   display: inline;
+  font-size: 99%; /*perfect pixel slay*/
 }
 .ribbon p span {
   -moz-transform: rotate(45deg);

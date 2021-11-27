@@ -23,7 +23,7 @@ body {
    z-index: 0;
  }
 
-@-webkit-keyframes orbita {
+@-webkit-keyframes orbita { /*chrom*/
    0%{width: 72px;}
    24%{z-index: 0;}
    25%{left: 380px; top: 130px;z-index: 2;}
@@ -33,7 +33,7 @@ body {
    100%{width: 72px; transform: rotate(360deg);}   
  }
 
- @-moz-keyframes orbita {
+ @-moz-keyframes orbita { /*MF*/
    0%{width: 72px;}
    24%{z-index: 0;}
    25%{left: 380px; top: 130px;z-index: 2;}
@@ -43,7 +43,7 @@ body {
    100%{width: 72px; transform: rotate(360deg);}   
  }
 
- @-o-keyframes orbita {
+ @-o-keyframes orbita { /*opera*/
    0%{width: 72px;}
    24%{z-index: 0;}
    25%{left: 380px; top: 130px;z-index: 2;}
@@ -53,7 +53,7 @@ body {
    100%{width: 72px; transform: rotate(360deg);}   
  }
 
-@-ms-keyframes orbita {
+@-ms-keyframes orbita { /*edge*/
    0%{width: 72px;}
    24%{z-index: 0;}
    25%{left: 380px; top: 130px;z-index: 2;}
